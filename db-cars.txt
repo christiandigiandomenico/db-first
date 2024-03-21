@@ -1,0 +1,20 @@
+modello: VARCHAR(100), NOT NULL
+marca: VARCHAR(100), NOT NULL
+n_telaio: SMALLINT PK
+anno: YEAR, NOT NULL
+prezzo: FLOAT(), NOT NULL
+carrozzeria: VARCHAR(100), NULL
+cilindrata: SMALLINT, NULL
+cavalli: SMALLINT, NULL
+potenza: TINYINT, NULL
+chilometraggio: SMALLINT, NULL
+carburante: VARCHAR(50), NULL
+marce: TINYINT, NULL
+cambio: VARCHAR(20), NULL
+cilindri: TINYINT, NULL
+emissioni_co2: TINYINT, NULL
+peso_a_vuoto: SMALLINT, NULL
+posti_a_sedere: TINYINT, NULL
+colore: VARCHAR(20), NULL
+colore_finiture_interne: VARCHAR(20), NULL
+materiale: VARCHAR(50), NULL
