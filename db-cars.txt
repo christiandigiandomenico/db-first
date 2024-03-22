@@ -2,7 +2,7 @@ modello: VARCHAR(100), NOT NULL
 marca: VARCHAR(100), NOT NULL
 n_telaio: SMALLINT PK
 anno: YEAR, NOT NULL
-prezzo: FLOAT(), NOT NULL
+prezzo: DECIMAL(), NOT NULL
 carrozzeria: VARCHAR(100), NULL
 cilindrata: SMALLINT, NULL
 cavalli: SMALLINT, NULL
